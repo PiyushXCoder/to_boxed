@@ -10,4 +10,4 @@ repository = "https://github.com/PiyushXCoder/to_boxed"
 keywords = ["to_boxed", "derive", "trait"]
 
 [dependencies]
-to_boxed_derive = { path = "../to_boxed_derive" }
+to_boxed_derive = "0.1.0"
