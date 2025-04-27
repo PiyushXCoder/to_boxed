@@ -1,4 +1,4 @@
-This crate defines ToBoxed Trait to its derive
+This crate defines ToBoxed Trait and its derive
 
 ``` rust
 

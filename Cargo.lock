@@ -35,12 +35,22 @@ dependencies = [
 name = "to_boxed"
 version = "0.1.0"
 dependencies = [
- "to_boxed_derive",
+ "to_boxed_derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "to_boxed_derive"
 version = "0.1.0"
+dependencies = [
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "to_boxed_derive"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "42514e8ffcb7e275e32117f63c99e35a3a96f52794472f4f842935c1e19d40ad"
 dependencies = [
  "quote",
  "syn",

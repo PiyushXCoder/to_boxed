@@ -1,8 +1,8 @@
 [package]
 name = "to_boxed"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
-description = "This crate defines ToBoxed Trait to its derive"
+description = "This crate defines ToBoxed Trait and its derive"
 authors = ["Piyush Raj <piyush.raj.kit@gmail.com>"]
 license = "GPL-3.0-only"
 readme = "README.md"
