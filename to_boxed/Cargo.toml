@@ -1,0 +1,13 @@
+[package]
+name = "to_boxed"
+version = "0.1.0"
+edition = "2024"
+description = "This crate defines ToBoxed Trait to its derive"
+authors = ["Piyush Raj <piyush.raj.kit@gmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/PiyushXCoder/to_boxed"
+keywords = ["to_boxed", "derive", "trait"]
+
+[dependencies]
+to_boxed_derive = { path = "../to_boxed_derive" }

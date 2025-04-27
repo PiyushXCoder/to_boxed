@@ -1,0 +1,17 @@
+[package]
+name = "to_boxed_derive"
+version = "0.1.0"
+edition = "2024"
+description = "This crate defines derive derive for ToBoxed"
+authors = ["Piyush Raj <piyush.raj.kit@gmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/PiyushXCoder/to_boxed"
+keywords = ["to_boxed", "derive", "trait"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0"
+syn = { version = "2.0" }

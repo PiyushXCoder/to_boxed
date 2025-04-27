@@ -1,0 +1,3 @@
+[workspace]
+resolver = "3"
+members = ["./to_boxed/", "./to_boxed_derive/"]
